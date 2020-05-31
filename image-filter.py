@@ -1,8 +1,7 @@
 from PIL import Image
 from PIL import ImageFilter
-from pylab import *
 
-image = Image.open('images/stage.jpg')
+image = Image.open('images/frostmourne.jpg')
 figure(figsize =(15,15))
 
 subplot(2, 3, 1)

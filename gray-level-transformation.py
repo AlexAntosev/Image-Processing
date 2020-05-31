@@ -1,13 +1,11 @@
-
 from PIL import Image
-from pylab import *
 
 START_INTERVAL = 100.0
 END_INTERVAL = 255.0
 
 NEGATION = 255.0
 
-image = array(Image.open('images/doctor.jpg').convert('L'))
+image = array(Image.open('images/frostmourne.jpg').convert('L'))
 gray()
 
 negative = NEGATION - image
